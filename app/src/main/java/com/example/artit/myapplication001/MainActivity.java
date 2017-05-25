@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView2;
         textView2 = (TextView) findViewById(R.id.bob_text2);
-        textView2.setText("BOB ROCK Test");
+        textView2.setText("BOB ROCK");
 
         ((TextView) findViewById(R.id.text_counter)).setText(Integer.toString(cnt));
         ((Button) findViewById(R.id.button)).setText("ลองกดดู");
